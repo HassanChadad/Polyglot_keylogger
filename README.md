@@ -25,7 +25,7 @@ So basically, the new polyglot image won't work on facebook or instagram for exa
 
 ## Running Server
 
-1. Install NodeJS on your machine
-2. cd to server folder in the repository
+1. Install NodeJS on your machine (https://nodejs.org/en/)
+2. cd to "server" folder in the repository
 3. run "npm install"
 4. run "node index.js"
