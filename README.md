@@ -6,7 +6,7 @@
 
 Polyglot file is a file that can be an **image AND JavaScript at the same time!** It also does not need an external script to extract the payload. The javascript code is often hidden in the header of the image.
 
-## My polyglot file
+## My polyglot file (new_marbles.bmp)
 
 I created a javascript that logs all the keys pressed in the webpage. It will show the keys pressed in console and will send the keys pressed to server. I hided the javascript code inside a bmp image using the following program (https://github.com/jklmnn/imagejs). In order to test the new polyglot, I created an html webpage and included the new polyglot file in it as a script and as an image.
 
